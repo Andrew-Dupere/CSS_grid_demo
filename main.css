@@ -50,8 +50,17 @@ a:hover{
 
 .prof-pic{
     grid-area:prof-pic;
+    
+    display:flex;
+    align-items: center;
 }
 
 .posts{
     grid-area:posts;
+}
+
+#profPic{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
 }
