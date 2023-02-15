@@ -2,8 +2,15 @@ body{
     margin: 0;
 }
 
+.area-border{
+    border:2px solid black
+}
+
+
+
+
 .container{
-    height: 100vh;
+    height: 200vh;
     display: grid;
     grid-template-columns:repeat(6, 1fr);
     grid-template-rows: 10vh 40vh 1fr;
@@ -17,6 +24,24 @@ body{
 
 .navbar{
     grid-area: navbar;
+    background-color: darkolivegreen;
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navbar a{
+    color: cornsilk;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    background-color: brown;
 }
 
 .prof-info{
